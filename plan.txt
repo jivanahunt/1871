@@ -1,0 +1,130 @@
+it's 1871 and the germans are about to besiege Paris. You can either choose:
+"1" - flee to the South with the rest of your family
+"2" - take up arms and join the militia to protect Paris
+"3" - carry on with baking bread (you don't think the Germans will stay for very long).
+
+Outcomes:
+1 -> It was very close but you managed to escape the Prussians by leaving before the break
+of dawn , and once you passed Anvers you took a train to go South to some small village
+near Nice where you open a little café, go to the beach every morning, meet your significant
+other and make family with 5 children and to feed them all you work like a horse for the 
+rest of your life.
+2 -> You join the militia, get given an old rifle that often gets jam and only delivers
+once every three shots but nonetheless it's a gun and you get busy with learning how to
+shoot.
+3 -> You fool! The Germans left quite soon after Rousseau's government abdiquated and
+paid a hefty fine, but the Parisians decided to become and independent and set-up la
+Commune, a bloody French revolution that would last 2 years, starve the capital.
+
+
+If you chose 1: exit
+the program_exits.
+
+If you chose 2: political_conversation
+After practicing on some targets set-up by the old square of blah blah, you go and refresh
+yourself in a bistro, find some hairy looking men who look like they've been fighting for
+a while and you decide to strike up a conversation with them to understand a bit more about
+the current situation.
+After a couple of drinks they ask you about -> question that should trigger defining
+key-words:
+
+political conversation: # if sentence contains:
+1- Marxist keywords -> sounds like you're a Marxist. Man A takes you to an old tavern in
+an obscure part of Paris and you talk about blah blah till dawn.
+
+2- Anarchist keywords -> sounds like you're an Anarchist. Man B takes you to meet very
+famous Anarchist woman who carried on spreading anarchist and giving talks all over France
+until she was well in her 90s
+
+3- Republican keywords -> sounds like you're a Republican. No one really likes you, and 
+you undergo an identity crisis once the Germans have left.
+
+4- Feminist keywords -> sounds like you're a feminist. Feminism wasn't quite a thing yet,
+but lots of great things happened for the emancipation of women's rights, like blah and blah.
+
+5- random words -> I have not idea what you're going on about but it doesn't really matter. Paris is about
+starved and burned to the ground, and you probably won't make it past winter. But the
+hairy men seem to take an odd interest in you and ask you to be clearer. '''pydoc hint'''
+
+
+If you chose 3:
+The early days were not too bad, everything was like usual, you woke up early and baked 
+bread sweating with all these hot ovens around you. It's true that whilst men still have
+bread, they will still carry on. All until one day you wake up and hear lots of chaos
+upstairs. The prussians have left, and the Commune is set-up. Your boss decides to flee
+Paris as otherwise he will persecuted and his property will be confiscated. He wasn't a 
+very popular man in the revolutionary circles. However in an act of kindness, he offers
+you to go with him, to which you say Yes or No:
+- Yes -> Outcomes.1
+- No -> You stay and decide to run the bakery like a cooperative and support the poor and
+men at the front. However the wheat supplies and quickly running low and the council
+invites you to give your opinion about the future of bread in Paris. In an unexpected
+moment of eloquence, you tell them:
+- "Ann Arendt quote on Bread and revolutions"
+- quote 2 on bread and revolutions
+- quote 3
+- quote 4
+
+One night you get woken up in haste, your commandeer informs you that the French army is attacking simultaneously
+different areas of Paris and you need to go and take your positions to protect the city. You grab your old rifle,
+get given your ammunitions and run to your position. Once there you count how many bullets you have.
+1 - you're a Marxist and like the Anarchists, you were less well armed than the Republicans who had more resources.
+You have 20 less bullets than them. After a long night, you have only 8 bullets left.
+2 - you're an Anarchist and like the Marxists, you were less well armed than the Republicans who had more resources.
+You have 20 less bullets than them. After a long night, you have only 8 bullets left.
+3 - you're a Republican and you were better well armed than the Marxists and Republicans. You have 20 bullets 
+more than them. After a long night, you have only 10 bullets left.
+4 - you're a Feminist and you were the least well armed. You have 40 less bullets than the Republicans and 20 
+bullets less than the Marxists and Anarchists. After a long night, you have only 6 bullets left.
+a
+Last bullets shoot out.random:
+1 - Well done! You shot a French bastard.
+2 - Damn it! Your rifle jammed and you had to duck real quick to not get shot.
+3 - Ouch! Your rifle jammed and you got shot in the:
+3a - shoulder
+3b - arm
+3c - hand
+3d - leg
+
+You're out of bullets but don't worry, the French had a humiliating defeat and had to retreat. Everyone is 
+celebrating and the injured are nursed. You're lucky or unlucky, you got shot in your ...
+
+You decide to celebrate with your friends and go to the Oiseau Sauvage, your favorite tavern in Paris.
+On the menu:
+- rat saute
+- elephant
+- crocodile
+
+What do you decide to eat?
+elephant -> yum that was tasty
+   -> sorry you can't afford it
+
+crocodile -> yum that was tasty
+    -> sorry you can't afford it
+
+rat -> a nice little variation to the usual daily grilled rat
+
+That was tasty! Well at least better than usual. Are you still hungry?
+Yes -> You have ... left. What do you want?
+ -> Sorry you can't afford anymore food. But hey! You contributed to builiding a school.
+ -> You fool! You have no money left! You will have to hunt and eat rat for the rest of the revolution.
+
+No - You're wise, you might need the money later.
+
+News come that the French have reinforcements that came to surround Paris. They will surely attack by the
+break of dawn. This is the time to decide what you want to do:
+- Stay and fight -> You were wise and you had enough bullets to fight and kill yourself before they got you
+     -> you spent all your money on eating and celebrating so you can't afford enough bullets and
+     you have an ultimate shoot out -> do you want to use the bayonette
+     -> You're a feminist and you fought harder than anyone else, but yep, you die too. On the bright
+     side of things, the great French writer Victor Hugo wrote an ode to you. Well it wasn't really
+     Victor Hugo, just the writer of this game: Ode with name of player
+
+- Flee -> you were wise not to spend all your money on food. You were able to bribe out of Paris and went to the
+    South of France Outcome.1
+    -> you're poor and couldn't afford the bribes. You got shot for deserting.
+
+- Hide -> Well done, you survived to tell the tale. However insignificant it was and your part in it.
+
+the night before the last battle -> it's time to make a decision
+the last battle and execution/death

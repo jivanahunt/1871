@@ -1,0 +1,54 @@
+nouns:
+
+*set_up
+	*name
+	*gender
+	*ammunitions
+	*money
+*scenes
+	*intro 1871 (map?)
+	– flee
+	– fight
+	– bake	
+	- idelogy (does it belong here, or further down in each scene?)
+		*scenario 1 - Southern_France
+		*scenario 2 - tavern_politics
+			*marxist
+			*anarchist
+			*republican
+			*feminist
+		*scenario 3 - bakery_politics
+			– keep_baking
+			*speech (Hanna and others
+			– political_speech (could this be under 'ideology' function
+			– ideology
+				*marxist
+				*anarchist
+				*republican
+				*feminist
+	*shoot_out (checking ammunitions)
+	– counting_ammunitions (could I combine simplify it under just count?)
+	– shooting
+	*celebration
+	– choosing food
+		*option to eat more?
+		– counting_money
+	*last_battle
+	– hide
+	– fight
+		– counting_ammunitions
+	– flee
+		– counting_money
+		– bribing
+		– executed
+	*death
+
+Engine?
+exit?
+
+verbs:
+
+do I need an 'Enter' function?
+
+executed
+bribing

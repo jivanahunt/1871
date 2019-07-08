@@ -1,0 +1,10 @@
+1. Game_Outline Carry on with the game -> tonight needs to be finished:
+write about each part of the game -> and the key problems I encounter / the kind of features I want
+
+Extract all the key concepts (nouns and verbs) -> write out how they’re related -> research any that I don’t understand
+
+Create a simple outline tree of how everything is connnects (classes, objects, functions) -> what belongs to parent classes, functions etc)
+
+4. Write a basic skeleton code that has just classes, their functions and nothing more. Write a test that runs
+
+5. Keep cycling over this process -> make it as clear as possible before I do more implementation. If i get stuck nywhere, research a concept or problem, and do the same process for that itself until I figure it out and I can carry on.

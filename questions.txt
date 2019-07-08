@@ -1,0 +1,34 @@
+Q: how can we have doc string with multiple lines? 
+A: Make a series of single strings with a ‘\n’ new line formatter at the end all grouped in parentheses (see ‘def start()’)
+
+Q: what encoding do you need to allow python string to include special accents? i.e. “é’? look at difference between unicode and other things etc
+A: need to add the following at the beginning of the program:
+#!/usr/bin/env python
+# -*- coding: latin-1 -*-
+or
+#!/usr/local/bin/python
+# coding: latin-1
+https://www.python.org/dev/peps/pep-0263
+
+Q: When do you want an exit() function and when could you use ‘return’? and exit() or exit(0) or sys.exit()?
+Do I need to do:
+from sys import exit?
+A: need to find out more and experiment when I have more code going on
+--------------- 
+Q: How can I make the function take both lower and upper case letters?
+Q: How can I have multiple string possibilities in a boolean? (more elegant option than just ‘or’ which btw doesn’t work)? use lists?
+
+Q: How do you access a function within a function from another function? i.e. connecting baking_bread() to start()
+
+Q: What’s better? to use recursion or while-loop in a function? better tavern_politics() option1 or option2? both exact same amount of lines
+
+Q: What is best practice to arrange the order of functions
+
+Q: Can we create a function without () ?
+
+Q: How can I be Pythonic with my formatting and the length of my lines?
+Q: How can I control the while-loops so that the game doesn’t go backwards (see opinion() function)
+
+
+on Python Strings:
+https://developers.google.com/edu/python/strings

@@ -1,0 +1,80 @@
+Setup?
+Get name? M/F
+
+Asks for player's name and gender -> creates an object with name and gender attributes.
+
+Start
+introduction to the game -> setting the scene
+
+The prussians have besieged Paris, you have three options: flee, fight, or bake with each option leading to a different scenario:
+Need to have an error system if you don't write the correct answer
+
+Scenario 1
+
+	Cheeky dark narration of your glorious yet bleak life in the south of France:
+	i.e. escaping to the South of France, have a good life, children etc -> working like horse
+	the program exits with an exit last words 'well done you've survived!'
+	
+Scenario 2
+
+	Narration about you going into a tavern and meeting activits and having a political conversation which leads to 5 outcomes:
+	(Either you would input just one prompted keyword according to your political view, or the more complicated option would be
+	to allow you to input your thoughts, and th have a bunch of keywords relating to a particular ideology.)
+		
+		1 marxist narration -> historical
+		
+		2 anarchist narration -> woman anarchist that lived in her 90s
+		
+		3 republican -> you suck and you're screwed narration
+		
+		4 feminist -> it didn't exist yet but it was a very interesting time narration
+		
+		5 random -> error handling / try again
+
+Scenario 3
+
+	Carry on baking -> narration of general life
+	Boss gives again option to flee or to stay:
+	
+		Flee -> go back to France (Scenario 1)
+		
+		Stay -> Take over the bakery and run it like a cooperative
+				Meet politicians who ask you to make a speech narration
+					
+					Speech 1 -> Anna Arendt
+					
+					Speech 2 -> bread and revolution
+					
+					Speech 3 -> revolution and bread
+					
+					Speech 4 -> other quote on bread
+		
+		
+		Each scenario attaches you to a similar ideology than in the tavern			
+					
+Both scenarios 2 and 3 if carried on lead to:
+
+Shoot out scene -> you get woken up in the middle of the night and have to fight the French
+	According to your ideology you have different ammunition -> description and update on ammunition -> unfair
+	Shoot out and bullet -> press enter to shoot and it has different random outcomes
+	
+Celebration scene
+Narration - like every good frenchman you celebrate by eating
+	going to eat with friends -> description of menu
+	input -> you decide what you want to eat -> it takes out that price from your funds
+		you get offered to eat again and whether you choose or not you get given an update on your funds and what you could do with them
+		income differentiation (count money) -> you can't afford the food you wanted if you are poor
+		
+		
+French have surrounded Paris - narration
+	Last battle - what's at stake
+	Ammunitions count according to your political inclinations and income
+		Last option to Flee, fight, or hide
+		Stay and fight
+			You die but they still sing about you -> print out ode
+		Flee 
+			income outcome -> you get to bribe your way to the South, or you are executed
+		hide
+			pathetic ending -> you get insulted before the end of the game
+			
+exit game? play again option Y / N
